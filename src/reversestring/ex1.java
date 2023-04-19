@@ -6,7 +6,7 @@ public class ex1 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the string you want to reverse : ");
 		String res = sc.nextLine();
-	
+	    sc.close();
 		 String fin=res.trim();
 		System.out.printf("Original String : %s",fin + "\n");
 		String rev=reverseString(fin);

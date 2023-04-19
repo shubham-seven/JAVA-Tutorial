@@ -1,8 +1,7 @@
 package Exceptionhandling;
+
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.Reader;
 import java.util.Properties;
 
 public class Readingproperties {
